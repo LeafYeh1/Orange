@@ -1,0 +1,83 @@
+header.major {
+    margin-top: -50px; /* 负的上边距值，可以根据需要调整 */
+}
+
+.container {
+    background-color: #ccc; /* 背景颜色 */
+    padding: 15px;/* 在内容和边框之间添加 20px 的内边距，你可以根据需要调整这个值 */
+    border-radius: 8px; /* 圆弧形边框 */
+}
+/* PHP Evaluation Block Styles */
+.container > div > div {
+    width: 390px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #666; /* 灰色背景 */
+    color: #fff; /* 文字白色 */
+    border-radius: 15px; /* 圆弧形边框 */
+    position: relative; /* 使子元素相对于父元素进行定位 */
+}
+
+.container > div > div p strong {
+    color: #ffad33; /* 文字颜色，亮橙色 */
+}
+
+.container > div > div .pfont {
+    font-size: 25px; /* 請根據需要調整字體大小的像素值 */
+}
+
+
+.container > div > div:last-child {
+    margin-right: 0;
+}
+
+/* PHP Evaluation Content Styles */
+.container > div > div p {
+    margin: 5px 0;
+}
+
+/* PHP Evaluation Star Rating Styles */
+.container > div > div img {
+    width: 200px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+/* 新增樣式 */
+.container > div > div .additional-style {
+    color: red;
+    font-weight: bold;
+}
+
+/* 新增樣式 - Learn More 按鈕 */
+.container > div > div .show-full-content,
+.container > div > div .show-partial-content {
+    background-color: #c7a4ff; /* Learn More 按钮背景颜色，亮橙色 */
+    color: #555; /* Learn More 按钮文字颜色 */
+    padding: 8px 16px; /* Learn More 按钮内边距 */
+    border: 2px solid #555; /* Learn More 按钮边框 */
+    border-radius: 5px; /* Learn More 按钮圆角边框 */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: absolute; /* Learn More 按钮绝对定位 */
+    bottom: 15px; /* Learn More 按钮距离底部 15px */
+    left: 18px; /* Learn More 按钮距离左侧 18px */
+}
+
+.container > div > div .show-full-content:hover,
+.container > div > div .show-partial-content:hover {
+    background-color: #9c7cf2; /* 鼠标悬停时的背景颜色 */
+    color: #ffffff; /* 鼠标悬停时的文字颜色 */
+}
+
+
+.container > div > div .show-full-content:hover,
+.container > div > div .show-partial-content:hover {
+    background-color: #555; /* 鼠标悬停时的背景颜色 */
+    color: #fff; /* 鼠标悬停时的文字颜色 */
+}
