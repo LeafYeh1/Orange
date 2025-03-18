@@ -50,8 +50,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`google_user_id`, `email`, `name`) VALUES
-('103385097362504369913', '811135@tkgsh.tn.edu.tw', '葉子'),
-('107491331746515728435', 'a0931127346@gmail.com', '葉子琳');
+('103385097362504369913', '811135@tkgsh.tn.edu.tw', '葉子');
 
 --
 -- 已傾印資料表的索引
